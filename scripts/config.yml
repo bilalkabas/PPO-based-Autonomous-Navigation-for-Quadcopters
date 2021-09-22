@@ -32,13 +32,13 @@ TrainEnv:
   
   - target:
     - 1.5
-    - 1
+    - 0.5
     offset:
     - 20
 
   - target:
-    - 0
-    - 0
+    - 1
+    - -0.5
     offset:
     - 24
 
@@ -49,38 +49,7 @@ TrainEnv:
     - 28
 
   - target:
-    - 1
-    - -1
+    - 0
+    - 0
     offset:
     - 32
-
-  - target:
-    - -1
-    - 0
-    offset:
-    - 36
-
-  - target:
-    - 1.5
-    - -1
-    offset:
-    - 40
-
-  - target:
-    - -0.5
-    - -1
-    offset:
-    - 44
-
-  - target:
-    - 1
-    - 0
-    offset:
-    - 48
-
-  - target:
-    - -1.5
-    - -0.5
-    offset:
-    - 52
-
