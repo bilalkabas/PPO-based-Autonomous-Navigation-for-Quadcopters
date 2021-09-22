@@ -130,7 +130,7 @@ Make sure you followed the instructions above to setup the environment.
 Go to the [releases](https://github.com/bilalkabas/DQN-based-Autonomous-Navigation-for-Quadcopters/releases) and download `TestEnv.zip`. After downloading completed, extract it.
 
 
-#️⃣ **2. Now, you can open up environment's executable file and start the training**
+#️⃣ **2. Now, you can open up environment's executable file and run the trained model**
 
 So, inside the repository
 ```
@@ -142,6 +142,8 @@ The trained model in `saved_policy` folder was trained for 280k steps.
 
 ![Picture2](https://user-images.githubusercontent.com/53112883/134378107-5ba81690-8307-42aa-aca1-cc3555565d26.png)
 
+## Test results
+The test environment has different textures and hole positions than that of the training environment. For 100 episodes, the trained model is able to travel 17.5 m on average and passes through 4 holes on average without any collision. The agent can pass through at most 9 holes in test environment without any collision.
 
 ## Author
 
