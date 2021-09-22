@@ -1,13 +1,10 @@
 import gym
-import time
 import yaml
 
-from stable_baselines3 import DQN, PPO
+from stable_baselines3 import PPO
 from stable_baselines3.common.monitor import Monitor
 from stable_baselines3.common.vec_env import DummyVecEnv, VecTransposeImage
-from stable_baselines3.common.evaluation import evaluate_policy
-from stable_baselines3.common.callbacks import EvalCallback
-from scripts.network import CNN, CNN2, ResNet18, BasicCNN
+
 
 # Get train environment configs
 with open('scripts/config.yml', 'r') as f:
@@ -27,10 +24,10 @@ env = DummyVecEnv([lambda: Monitor(
 env = VecTransposeImage(env)
 
 # Load an existing model
-model = PPO.load(env=env, path="\saved_policy\ppo_navigation_policy")
+model = PPO.load(env=env, path="saved_policy\ppo_navigation_policy")
 
 # Run the trained policy
 obs = env.reset()
-for i in range(2000):
+for i in range(1000):
     action, _ = model.predict(obs, deterministic=True)
-    obs, rewards, dones, info = env.step(action)
+    obs, _, dones, info = env.step(action)
