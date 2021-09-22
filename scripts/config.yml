@@ -1,0 +1,86 @@
+TrainEnv:
+  sections:
+  - target:
+    - 1
+    - -0.5
+    offset:
+    - 0
+
+  - target:
+    - -1.5
+    - 1
+    offset:
+    - 4
+
+  - target:
+    - 0.5
+    - -1
+    offset:
+    - 8
+
+  - target:
+    - -1.5
+    - -1
+    offset:
+    - 12
+
+  - target:
+    - 0
+    - 1
+    offset:
+    - 16
+  
+  - target:
+    - 1.5
+    - 1
+    offset:
+    - 20
+
+  - target:
+    - 0
+    - 0
+    offset:
+    - 24
+
+  - target:
+    - -1
+    - -0.5
+    offset:
+    - 28
+
+  - target:
+    - 1
+    - -1
+    offset:
+    - 32
+
+  - target:
+    - -1
+    - 0
+    offset:
+    - 36
+
+  - target:
+    - 1.5
+    - -1
+    offset:
+    - 40
+
+  - target:
+    - -0.5
+    - -1
+    offset:
+    - 44
+
+  - target:
+    - 1
+    - 0
+    offset:
+    - 48
+
+  - target:
+    - -1.5
+    - -0.5
+    offset:
+    - 52
+
