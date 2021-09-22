@@ -29,7 +29,7 @@ The training environment has 14 sections with different textures and hole positi
 #️⃣ **1. Clone the repository**
 
 ```
-git clone https://github.com/bilalkabas/DQN-based-Autonomous-Navigation-for-Quadcopters
+git clone https://github.com/bilalkabas/PPO-based-Autonomous-Navigation-for-Quadcopters
 ```
 
 #️⃣ **2. From Anaconda command prompt, create a new conda environment**
@@ -37,13 +37,13 @@ git clone https://github.com/bilalkabas/DQN-based-Autonomous-Navigation-for-Quad
 I recommend you to use [Anaconda or Miniconda](https://www.anaconda.com/products/individual-d) to create a virtual environment.
 
 ```
-conda create -n dqn_drone python==3.8
+conda create -n ppo_drone python==3.8
 ```
 
 #️⃣ 3. **Install required libraries**
 
 ```
-conda activate dqn_drone
+conda activate ppo_drone
 pip install -r requirements.txt
 ```
 
