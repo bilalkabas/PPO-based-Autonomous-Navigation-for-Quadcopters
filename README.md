@@ -12,7 +12,7 @@ This repository contains an implementation of Proximal Policy Optimization (PPO)
 
 ## Overview
 
-The training environment has 14 sections with different textures and hole positions. The agent starts at these sections randomly. The starting point of the agent is also random within a specific region in the yz-plane.
+The training environment has 9 sections with different textures and hole positions. The agent starts at these sections randomly. The starting point of the agent is also random within a specific region in the yz-plane.
 
 ### Observation Space
 
@@ -41,6 +41,8 @@ conda create -n ppo_drone python==3.8
 ```
 
 #️⃣ 3. **Install required libraries**
+
+Inside the main directory of the repo
 
 ```
 conda activate ppo_drone
@@ -77,8 +79,8 @@ Content of the settings.json should be as below:
     "SettingsVersion": 1.2,
     "LocalHostIp": "127.0.0.1",
     "SimMode": "Multirotor",
-    "ClockSpeed": 10,
-    "ViewMode": "FlyWithMe",
+    "ClockSpeed": 20,
+    "ViewMode": "SpringArmChase",
     "Vehicles": {
         "drone0": {
             "VehicleType": "SimpleFlight",
@@ -114,7 +116,6 @@ Make sure you followed the instructions above to setup the environment.
 
 Go to the [releases](https://github.com/bilalkabas/DQN-based-Autonomous-Navigation-for-Quadcopters/releases) and download `TrainEnv.zip`. After downloading completed, extract it.
 
-
 #️⃣ **2. Now, you can open up environment's executable file and start the training**
 
 So, inside the repository
@@ -123,7 +124,7 @@ python main.py
 ```
 
 ## How to run the pretrained model?
-Make sure you followed the instructions above to setup the environment.
+Make sure you followed the instructions above to setup the environment. To speed up the training, the simulation runs at 20x speed. You may consider to change the `"ClockSpeed"` parameter in `settings.json` to 1.
 
 #️⃣ **1. Download the test environment**
 
