@@ -9,7 +9,7 @@ This repository contains an implementation of Proximal Policy Optimization (PPO)
 
 ### 🛠️ Libraries & Tools
 
-- [OpenAI - Stable Baselines 3](https://github.com/DLR-RM/stable-baselines3)
+- [Stable Baselines 3](https://github.com/DLR-RM/stable-baselines3)
 - [OpenAI - Gym](https://github.com/openai/gym)
 - [Microsoft AirSim](https://github.com/microsoft/AirSim)
 - [Unreal Engine 4](https://www.unrealengine.com/en-US/)
