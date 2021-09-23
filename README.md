@@ -3,6 +3,10 @@
 
 This repository contains an implementation of Proximal Policy Optimization (PPO) for autonomous navigation in a corridor environment with a quadcopter. There are blocks having circular opening for the drone to go through for each 4 meters. The expectation is that the agent navigates through these openings without colliding with blocks. **This project currently runs only on Windows since Unreal environments were packaged for Windows.**
 
+<p align="center">
+<img src="https://user-images.githubusercontent.com/53112883/134464002-08cbab61-999c-461c-9098-befd0ff0f779.gif" width="650"/>
+</p>
+
 ### 🛠️ Libraries & Tools
 
 - [OpenAI - Stable Baselines 3](https://github.com/DLR-RM/stable-baselines3)
