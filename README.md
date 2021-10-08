@@ -98,15 +98,9 @@ Content of the settings.json should be as below:
         "CaptureSettings": [
             {
                 "ImageType": 0,
-                "Width": 99 ,
-                "Height": 99,
-                "FOV_Degrees": 62.2
-            },
-            {
-                "ImageType": 2,
-                "Width": 99,
-                "Height": 99,
-                "FOV_Degrees": 62.2
+                "Width": 50,
+                "Height": 50,
+                "FOV_Degrees": 120
             }
         ]
     }
