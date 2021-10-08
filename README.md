@@ -90,7 +90,7 @@ Content of the settings.json should be as below:
             "VehicleType": "SimpleFlight",
             "X": 0.0,
             "Y": 0.0,
-            "Z": -1.3,
+            "Z": 0.0,
             "Yaw": 0.0
         }
     },
