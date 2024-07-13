@@ -112,7 +112,7 @@ Make sure you followed the instructions above to setup the environment.
 
 #️⃣ **1. Download the training environment**
 
-Go to the [releases](https://github.com/bilalkabas/DQN-based-Autonomous-Navigation-for-Quadcopters/releases) and download `TrainEnv.zip`. After downloading completed, extract it.
+Go to the [releases](https://github.com/bilalkabas/PPO-based-Autonomous-Navigation-for-Quadcopters/releases) and download `TrainEnv.zip`. After downloading completed, extract it.
 
 #️⃣ **2. Now, you can open up environment's executable file and start the training**
 
@@ -126,7 +126,7 @@ Make sure you followed the instructions above to setup the environment. To speed
 
 #️⃣ **1. Download the test environment**
 
-Go to the [releases](https://github.com/bilalkabas/DQN-based-Autonomous-Navigation-for-Quadcopters/releases) and download `TestEnv.zip`. After downloading completed, extract it.
+Go to the [releases](https://github.com/bilalkabas/PPO-based-Autonomous-Navigation-for-Quadcopters/releases) and download `TestEnv.zip`. After downloading completed, extract it.
 
 
 #️⃣ **2. Now, you can open up environment's executable file and run the trained model**
